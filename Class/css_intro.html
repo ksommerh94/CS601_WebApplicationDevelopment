@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style >
+      /*Unversal selector */
+      body{ /*html or * */
+        font-size: 13px;
+      }
+      /*Element selector */
+      h1 {
+          font-size: 1in;
+          color: darkblue; /*entitiy color reference*/
+      }
+      html {
+        letter-spacing: 5px;
+      }
+      /*Class selector */
+      .blue{
+        color: darkblue;
+      }
+      .pink{
+        color: pink;
+      }
+      /*ID selector */
+      #target {
+        border-bottom: 3px dotted orange;
+      }
+      /*ID selector */
+      [foo]{
+        background-color: brown;
+      }
+      [id=foo]{
+        background-color: magenta;
+      }
+
+    </style>
+
+    <title>Hello, world!</title>
+  </head>
+  <body>
+    <h1 style="border-bottom: 3px solid green;">Hello, world!</h1>
+    <h1 id ="target" class="pink">Hello, world!</h1>
+    <p >The color takes the las declared on top</p>
+    <p foo="en_us">The color goes over all , </p>
+    <p id="foo">The color goes over all , </p>
+    <footer>
+      &copy; Karen Sommer 2021
+    </footer>
+  </body>
+</html>
