@@ -1,0 +1,45 @@
+
+h1 { /* Make al h1, have a letter spacing adn change the size to h6 size*/
+  letter-spacing: 1px;
+  font-size: .67em;
+}
+
+h2{ /* hange the size to h5 size */
+  font-size: .83em;
+}
+h3{ /* hange the size to h4 size */
+  font-size: 1em;
+}
+h4{ /* hange the size to h3 size */
+  font-size: 1.17em;
+}
+h5{ /* hange the size to h2 size */
+  font-size: 1.5em;
+}
+h6{ /* hange the size to h1 size */
+  font-size: 2em;
+}
+
+span{ /* Make any text within a span italic */
+    font-style: italic;
+}
+
+div { /* Give space round the div and a border and padding */
+  margin: 20rem;
+  border: 3px solid red;
+  padding: 10px;
+}
+li { /* Remove the bulletpoints of list */
+  list-style: none;
+}
+p[alt]{ /* Makes al paragraphs that contains an attribute called alt   BOOK: Page 292 */
+  width: 17%;
+}
+td { /* Makes any table cell to have a border of 1 pixel */
+  border: 1px solid black;
+}
+
+img[title*="Help"]{ /* Makes the image 20x20 mm if the title attribute contains the word help BOOK: Page 292 */
+  height:20mm;
+  width:20mm;
+}

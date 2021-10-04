@@ -1,0 +1,11 @@
+input[name="user_id"] {
+  border: solid gray;
+  border-radius: 10px;
+}
+
+p[title="help_section_234"] {
+  background-image: url("../images/blue_skies.jpeg"); /* The image used */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+
+}

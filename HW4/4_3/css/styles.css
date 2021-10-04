@@ -1,0 +1,24 @@
+p.brown_background {
+  background-color: brown;
+  color: white;
+}
+
+div.a {
+  color: pink;
+  font-size: 150%;
+  font-family: Verdana, Times;
+  font-style: italic;
+}
+
+div.b {
+  border: 3px dotted magenta;
+  font-size: 30px;
+  padding: 10px;
+  text-align: right;
+}
+div.c {
+  border: 3px solid pink;
+  margin: 0.5cm;
+  padding: 3px;
+  font-family: Georgia, Times;
+}

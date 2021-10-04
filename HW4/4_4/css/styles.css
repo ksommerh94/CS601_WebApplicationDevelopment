@@ -1,0 +1,13 @@
+#target_1 { /* element with id target 1*/
+  color: white;/* font color*/
+  background-color: darkred;/* Background color*/
+}
+
+#target_2 {
+  /*display: none; Another way to hide element*/
+  visibility: hidden; /* Hides element*/
+}
+#textfield_1 {
+  border: dotted darkblue;
+  border-radius: 14px;
+}
